@@ -17,10 +17,13 @@ const cleanSlug = (slug: string) =>
   slug.match(/--/) ? cleanSlug(slug.replace(/--/g, "-")) : trimDash(slug)
 
 /** Returns a slugified version of the given string */
-export const toSlug = (x: string) => {
-  const slug = x.toLowerCase().replace(/[^a-z0-9]+/g, "-")
-  return cleanSlug(slug)
-}
+// export const toSlug = (x: string) => {
+//   const slug = x.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+//   return cleanSlug(slug)
+// }
+//FIXME: Patch until Issue #57 is fixed https://github.com/rendall/simple-comment/issues/57 
+export const toSlug = (x: string) => x.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+
 // Set SIMPLE_COMMENT_API_URL variable in the .env file, following example.env
 const SIMPLE_COMMENT_API_URL = process.env.SIMPLE_COMMENT_API_URL
 
