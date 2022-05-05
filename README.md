@@ -317,4 +317,3 @@ There are 34 solutions that are not Simple Comment listed here. Nearly all of th
   - Webmention <https://webmention.io/>
     - more detail <https://news.ycombinator.com/item?id=25571253>
   - utterances <https://github.com/utterance/utterances>
-

@@ -792,4 +792,3 @@ const setup = async (
 
 // setup("some-topic-id") will link this page to "some-topic-id"
 setup()
-
