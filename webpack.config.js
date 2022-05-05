@@ -25,4 +25,3 @@ module.exports = {
     new webpack.EnvironmentPlugin(['SIMPLE_COMMENT_API_URL'])
   ]
 };
-

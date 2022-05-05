@@ -302,4 +302,3 @@ export const getHttpCookie = (elem: HTMLElement, url: string) =>
       reject(error)
     }
   })
-
